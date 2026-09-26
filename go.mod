@@ -1,4 +1,4 @@
-module github.com/alepeh/dotfiles/site
+module github.com/alepeh/alepeh.github.io
 
 go 1.25.6
 
