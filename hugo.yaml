@@ -1,4 +1,4 @@
-baseURL: https://dotfiles.alexanderpehm.at/
+baseURL: https://alexanderpehm.at/
 languageCode: en-us
 title: Alexander Pehm
 theme: ["github.com/adityatelange/hugo-PaperMod"]
