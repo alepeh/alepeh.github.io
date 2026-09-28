@@ -13,10 +13,11 @@ items:
       - content/writing/agentic-sdlc/index.md
   - id: post-juggling-balls
     title: "Post: What's No Longer in My Terminal (working title; how little time I spend there, and the balls AI makes me juggle)"
-    state: planned
-    next_gate: Hudson drafts an outline in Alex's voice; Alex confirms the angle before any prose
+    state: moving
+    next_gate: Alex answers the open questions marked 'Alex:' in the outline and confirms the angle; only then does prose get written
     refs:
       - content/writing/whats-in-my-terminal/index.md
+      - content/writing/whats-no-longer-in-my-terminal/index.md
       - notes.post-juggling-balls (this file)
 notes:
   post-juggling-balls:
