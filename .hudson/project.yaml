@@ -1,0 +1,38 @@
+version: 1
+project_id: alepeh-github-io
+title: Alexander Pehm, personal site
+purpose: Share thoughts on engineering, especially in times of AI and fast change, as long-form writing plus a short-form changelog.
+sensitivity: public
+repository:
+  remote: https://github.com/alepeh/alepeh.github.io
+  default_branch: main
+authoritative_for:
+  - published and draft posts under content/writing
+  - short-form changelog entries under content/diff
+  - site layout, theme config and deployment
+source_systems:
+  - name: Alex's own experience and other repositories
+    authoritative_for: source material for posts (dotfiles, SDLC playbook, Hudson)
+    access: reference by link; do not copy private material into posts
+home:
+  path: HOME.yaml
+entrypoints:
+  help: make help
+  verify: make build
+routing:
+  include:
+    - Blogpost schreiben
+    - Gedanken zu Engineering und AI veröffentlichen
+    - Website alexanderpehm.at
+    - short-form changelog entry
+  exclude:
+    - Kaminkommander or RFK company websites
+    - personal journal entries (Speicher)
+privacy:
+  allow_remote: true
+  remote_visibility: public
+  prohibited_content:
+    - credentials
+    - customer or family personal data
+    - unpublished business details from RFK or Paysafe
+    - anything from an employer that is not cleared for publication
