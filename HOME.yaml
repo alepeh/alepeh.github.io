@@ -1,0 +1,26 @@
+# Project home: the one file an agent opens first (ADR-0007 in alepeh/hudson).
+updated: 2026-09-28
+outcome: >-
+  A personal site at alexanderpehm.at where Alex publishes considered
+  writing on engineering in the age of AI, and a short changelog of his tooling.
+wip: []
+items:
+  - id: agentic-sdlc-post
+    title: Publish the agentic SDLC overview post
+    state: planned
+    next_gate: Alex decides whether it is ready; flip draft to false in the front matter
+    refs:
+      - content/writing/agentic-sdlc/index.md
+  - id: post-juggling-balls
+    title: "Post: What's No Longer in My Terminal (working title; how little time I spend there, and the balls AI makes me juggle)"
+    state: planned
+    next_gate: Hudson drafts an outline in Alex's voice; Alex confirms the angle before any prose
+    refs:
+      - content/writing/whats-in-my-terminal/index.md
+      - notes.post-juggling-balls (this file)
+notes:
+  post-juggling-balls:
+    - Follow-up to "What's in My Terminal", titled "What's No Longer in My Terminal": the setup is still there, but Alex now spends little time in the terminal.
+    - Theme one: AI multiplies the balls in the air (more projects and threads in flight), so keeping track of them becomes the work.
+    - Theme two: building specialized harnesses per task (skills, project repos, a chief-of-staff agent) instead of one general setup.
+    - Alex supplies the concrete examples; do not invent any.
