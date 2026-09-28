@@ -11,9 +11,16 @@ items:
     next_gate: Alex decides whether it is ready; flip draft to false in the front matter
     refs:
       - content/writing/agentic-sdlc/index.md
-  - id: next-post-topics
-    title: Pick the first post about engineering under fast AI change
+  - id: post-juggling-balls
+    title: "Post: how little time I spend in the terminal, and the balls AI makes me juggle"
     state: planned
-    next_gate: Alex names a topic or Hudson proposes three from recent work
+    next_gate: Hudson drafts an outline in Alex's voice; Alex confirms the angle before any prose
     refs:
-      - content/writing/
+      - content/writing/whats-in-my-terminal/index.md
+      - notes.post-juggling-balls (this file)
+notes:
+  post-juggling-balls:
+    - Follow-up to "What's in My Terminal": the setup is still there, but Alex now spends little time in the terminal.
+    - Theme one: AI multiplies the balls in the air (more projects and threads in flight), so keeping track of them becomes the work.
+    - Theme two: building specialized harnesses per task (skills, project repos, a chief-of-staff agent) instead of one general setup.
+    - Alex supplies the concrete examples; do not invent any.
